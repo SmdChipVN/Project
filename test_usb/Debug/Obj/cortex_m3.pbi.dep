@@ -1,0 +1,5 @@
+cortex_m3.pbi: \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\cortex_m3.c \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\cortex_m3.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\common.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\define.h

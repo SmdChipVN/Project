@@ -1,0 +1,5 @@
+firework_data.pbi: \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\source\firework_data.c \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\firework.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\ledfull.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\sound.h

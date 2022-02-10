@@ -1,0 +1,37 @@
+main_mass.pbi: \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\source\main_test\main_mass.c \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\system.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\stm32f103c6t6.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\cortex_m3.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\common.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\define.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bitband.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\basic_timer.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\general_timer.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\base_timer.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\rtc.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\wwdg.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\idwg.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\spi.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\uart.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\i2c.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\usb.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP_TYPEDEF.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP_ENUM.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\config.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\gpio.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\dma.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\2_SoftPeripheral\0_include\soft_spi.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bkp.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\pwr.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\afio.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\exti.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\advanced_timer.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\rcc.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\flash.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\crc.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\IC\0_include\flashIC.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USB_HID.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USB_CDC.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USB_MASS.h

@@ -1,0 +1,699 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  10/Feb/2022  16:49:03
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Exe\firework.out
+#    Map file     =
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\List\firework.map
+#    Command line =
+#        -f C:\Users\jfavl\AppData\Local\Temp\EW7D94.tmp
+#        (D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\base_timer.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\button_1.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\common.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\cortex_m3.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\dma.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\firework.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\firework_data.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\flashIC_0.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\gpio.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\led_1.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\main.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\main_led_button.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\main_mass.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\main_sound.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\mfrc522.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\mfrc522_0.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\rcc.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\regulation.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\soft_spi_0.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\sound.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\spi.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\startup_stm32f103cx.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\system.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\system_stm32f1xx.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\usb.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\USB_DATA.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\USB_MASS.o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj\USBP.o
+#        --no_out_extension -o
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Exe\firework.out --map
+#        D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\List\firework.map
+#        --config D:\2_Project\14_FireWork\code\c6t6\v2.0\firework.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x800'7fff] { ro };
+define block CSTACK with size = 256, alignment = 8 { };
+define block HEAP with size = 0, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'27ff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xec
+  .intvec            ro code   0x800'0000    0xec  startup_stm32f103cx.o [1]
+                             - 0x800'00ec    0xec
+
+"P1":                                      0x13eb
+  .text              ro code   0x800'00ec   0x46c  usb.o [1]
+  .text              ro code   0x800'0558    0xe4  USBP.o [1]
+  .text              ro code   0x800'063c   0x3a8  USB_MASS.o [1]
+  .text              ro code   0x800'09e4   0x2a0  flashIC_0.o [1]
+  .text              ro code   0x800'0c84    0x86  ABImemcpy.o [3]
+  .text              ro code   0x800'0d0a    0x3a  zero_init3.o [3]
+  .text              ro code   0x800'0d44    0x7e  spi.o [1]
+  .text              ro code   0x800'0dc4   0x1f0  main_mass.o [1]
+  .text              ro code   0x800'0fb4    0x66  gpio.o [1]
+  .text              ro code   0x800'101c    0xdc  rcc.o [1]
+  .text              ro code   0x800'10f8    0x14  dma.o [1]
+  .text              ro code   0x800'110c    0x38  system_stm32f1xx.o [1]
+  .text              ro code   0x800'1144    0x38  packbits_init_single.o [3]
+  .rodata            const     0x800'117c    0x30  USB_DATA.o [1]
+  .text              ro code   0x800'11ac    0x28  data_init.o [3]
+  .rodata            const     0x800'11d4    0x24  USB_MASS.o [1]
+  .iar.init_table    const     0x800'11f8    0x20  - Linker created -
+  .rodata            const     0x800'1218    0x20  USB_DATA.o [1]
+  .rodata            const     0x800'1238    0x20  USB_DATA.o [1]
+  .text              ro code   0x800'1258    0x1e  cmain.o [3]
+  .text              ro code   0x800'1276     0x4  low_level_init.o [2]
+  .text              ro code   0x800'127a     0x4  exit.o [2]
+  .text              ro code   0x800'1280     0xa  cexit.o [3]
+  .text              ro code   0x800'128c    0x14  exit.o [4]
+  .rodata            const     0x800'12a0    0x18  USB_DATA.o [1]
+  .text              ro code   0x800'12b8    0x18  startup_stm32f103cx.o [1]
+  .rodata            const     0x800'12d0    0x14  USB_DATA.o [1]
+  .rodata            const     0x800'12e4    0x14  USB_DATA.o [1]
+  .rodata            const     0x800'12f8    0x10  USB_MASS.o [1]
+  .rodata            const     0x800'1308    0x10  USB_MASS.o [1]
+  .rodata            const     0x800'1318     0xc  flashIC_0.o [1]
+  .rodata            const     0x800'1324     0xc  main_mass.o [1]
+  .rodata            const     0x800'1330     0xc  rcc.o [1]
+  .rodata            const     0x800'133c     0xc  USB_DATA.o [1]
+  .rodata            const     0x800'1348     0xc  USB_DATA.o [1]
+  .rodata            const     0x800'1354     0xc  USB_DATA.o [1]
+  .rodata            const     0x800'1360     0xc  USB_DATA.o [1]
+  .rodata            const     0x800'136c     0xc  USB_MASS.o [1]
+  .rodata            const     0x800'1378     0xc  USB_MASS.o [1]
+  .rodata            const     0x800'1384     0xc  USB_MASS.o [1]
+  .text              ro code   0x800'1390     0xc  cstartup_M.o [3]
+  .rodata            const     0x800'139c     0x8  dma.o [1]
+  .rodata            const     0x800'13a4     0x8  main_mass.o [1]
+  .rodata            const     0x800'13ac     0x8  usb.o [1]
+  .rodata            const     0x800'13b4     0x8  usb.o [1]
+  .rodata            const     0x800'13bc     0x8  usb.o [1]
+  .rodata            const     0x800'13c4     0x8  USB_MASS.o [1]
+  .rodata            const     0x800'13cc     0x8  USB_MASS.o [1]
+  .rodata            const     0x800'13d4     0x4  main_mass.o [1]
+  .rodata            const     0x800'13d8     0x4  main_mass.o [1]
+  .rodata            const     0x800'13dc     0x4  main_mass.o [1]
+  .rodata            const     0x800'13e0     0x4  main_mass.o [1]
+  .rodata            const     0x800'13e4     0x4  spi.o [1]
+  .rodata            const     0x800'13e8     0x4  usb.o [1]
+  .rodata            const     0x800'13ec     0x4  usb.o [1]
+  .rodata            const     0x800'13f0     0x4  usb.o [1]
+  .rodata            const     0x800'13f4     0x4  usb.o [1]
+  .rodata            const     0x800'13f8     0x4  usb.o [1]
+  .rodata            const     0x800'13fc     0x4  usb.o [1]
+  .rodata            const     0x800'1400     0x4  USB_DATA.o [1]
+  .text              ro code   0x800'1404     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1408     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'140c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1410     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1414     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1418     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'141c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1420     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1424     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1428     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'142c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1430     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1434     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1438     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'143c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1440     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1444     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1448     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'144c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1450     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1454     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1458     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'145c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1460     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1464     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1468     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'146c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1470     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1474     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1478     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'147c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1480     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1484     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1488     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'148c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1490     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1494     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'1498     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'149c     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14a0     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14a4     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14a8     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14ac     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14b0     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14b4     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14b8     0x4  startup_stm32f103cx.o [1]
+  .text              ro code   0x800'14bc     0x4  startup_stm32f103cx.o [1]
+  .rodata            const     0x800'14c0     0x0  zero_init3.o [3]
+  .rodata            const     0x800'14c0     0x0  packbits_init_single.o [3]
+  Initializer bytes  const     0x800'14c0    0x17  <for P2-1>
+                             - 0x800'14d7  0x13eb
+
+Absolute sections, part 1 of 50:             0x10
+  .noinit            uninit    0x800'2800    0x10  system.o [1]
+                             - 0x800'2810    0x10
+
+"P2", part 1 of 3:                           0x24
+  P2-1                        0x2000'0000    0x24  <Init block>
+    .data            inited   0x2000'0000    0x24  main_mass.o [1]
+                            - 0x2000'0024    0x24
+
+"P2", part 2 of 3:                         0x125c
+  .bss               zero     0x2000'0024  0x1000  USB_MASS.o [1]
+  .bss               zero     0x2000'1024   0x200  USB_MASS.o [1]
+  .bss               zero     0x2000'1224    0x40  main_mass.o [1]
+  .bss               zero     0x2000'1264     0x4  main_mass.o [1]
+  .bss               zero     0x2000'1268     0x4  main_mass.o [1]
+  .bss               zero     0x2000'126c     0x4  main_mass.o [1]
+  .bss               zero     0x2000'1270     0x4  mfrc522.o [1]
+  .bss               zero     0x2000'1274     0x4  system.o [1]
+  .bss               zero     0x2000'1278     0x4  USB_MASS.o [1]
+  .bss               zero     0x2000'127c     0x1  main_mass.o [1]
+                            - 0x2000'127d  0x1259
+
+"P2", part 3 of 3:                          0x138
+  .noinit            uninit   0x2000'1280    0x18  system.o [1]
+  .noinit            uninit   0x2000'1298    0x10  USB_MASS.o [1]
+  .noinit            uninit   0x2000'12a8     0x8  main_mass.o [1]
+  .noinit            uninit   0x2000'12b0     0x8  USBP.o [1]
+  CSTACK                      0x2000'12b8   0x100  <Block>
+    CSTACK           uninit   0x2000'12b8   0x100  <Block tail>
+                            - 0x2000'13b8   0x138
+
+Absolute sections, part 2 of 50:             0x50
+  .noinit            uninit   0x4000'0000    0x50  main_mass.o [1]
+                            - 0x4000'0050    0x50
+
+Absolute sections, part 3 of 50:             0x50
+  .noinit            uninit   0x4000'0400    0x50  main_mass.o [1]
+                            - 0x4000'0450    0x50
+
+Absolute sections, part 4 of 50:             0x28
+  .noinit            uninit   0x4000'2800    0x28  main_mass.o [1]
+                            - 0x4000'2828    0x28
+
+Absolute sections, part 5 of 50:              0xc
+  .noinit            uninit   0x4000'2c00     0xc  main_mass.o [1]
+                            - 0x4000'2c0c     0xc
+
+Absolute sections, part 6 of 50:             0x10
+  .noinit            uninit   0x4000'3000    0x10  main_mass.o [1]
+                            - 0x4000'3010    0x10
+
+Absolute sections, part 7 of 50:             0x1c
+  .noinit            uninit   0x4000'4400    0x1c  main_mass.o [1]
+                            - 0x4000'441c    0x1c
+
+Absolute sections, part 8 of 50:             0x24
+  .noinit            uninit   0x4000'5400    0x24  main_mass.o [1]
+                            - 0x4000'5424    0x24
+
+Absolute sections, part 9 of 50:             0x54
+  .noinit            uninit   0x4000'5c00    0x54  main_mass.o [1]
+                            - 0x4000'5c54    0x54
+
+Absolute sections, part 10 of 50:            0xc0
+  .noinit            uninit   0x4000'6c00    0xc0  main_mass.o [1]
+                            - 0x4000'6cc0    0xc0
+
+Absolute sections, part 11 of 50:             0x8
+  .noinit            uninit   0x4000'7000     0x8  main_mass.o [1]
+                            - 0x4000'7008     0x8
+
+Absolute sections, part 12 of 50:            0x20
+  .noinit            uninit   0x4001'0000    0x20  main_mass.o [1]
+                            - 0x4001'0020    0x20
+
+Absolute sections, part 13 of 50:            0x18
+  .noinit            uninit   0x4001'0400    0x18  main_mass.o [1]
+                            - 0x4001'0418    0x18
+
+Absolute sections, part 14 of 50:            0x1c
+  .noinit            uninit   0x4001'0800    0x1c  main_mass.o [1]
+                            - 0x4001'081c    0x1c
+
+Absolute sections, part 15 of 50:            0x1c
+  .noinit            uninit   0x4001'0c00    0x1c  main_mass.o [1]
+                            - 0x4001'0c1c    0x1c
+
+Absolute sections, part 16 of 50:            0x1c
+  .noinit            uninit   0x4001'1000    0x1c  main_mass.o [1]
+                            - 0x4001'101c    0x1c
+
+Absolute sections, part 17 of 50:            0x1c
+  .noinit            uninit   0x4001'1400    0x1c  main_mass.o [1]
+                            - 0x4001'141c    0x1c
+
+Absolute sections, part 18 of 50:            0x50
+  .noinit            uninit   0x4001'2c00    0x50  main_mass.o [1]
+                            - 0x4001'2c50    0x50
+
+Absolute sections, part 19 of 50:            0x24
+  .noinit            uninit   0x4001'3000    0x24  main_mass.o [1]
+                            - 0x4001'3024    0x24
+
+Absolute sections, part 20 of 50:            0x1c
+  .noinit            uninit   0x4001'3800    0x1c  main_mass.o [1]
+                            - 0x4001'381c    0x1c
+
+Absolute sections, part 21 of 50:            0x94
+  .noinit            uninit   0x4002'0000    0x94  main_mass.o [1]
+                            - 0x4002'0094    0x94
+
+Absolute sections, part 22 of 50:            0x30
+  .noinit            uninit   0x4002'1000    0x30  main_mass.o [1]
+                            - 0x4002'1030    0x30
+
+Absolute sections, part 23 of 50:            0x24
+  .noinit            uninit   0x4002'2000    0x24  main_mass.o [1]
+                            - 0x4002'2024    0x24
+
+Absolute sections, part 24 of 50:             0xc
+  .noinit            uninit   0x4002'3000     0xc  main_mass.o [1]
+                            - 0x4002'300c     0xc
+
+Absolute sections, part 25 of 50:           0xa00
+  .noinit            uninit   0x4200'0000   0xa00  main_mass.o [1]
+                            - 0x4200'0a00   0xa00
+
+Absolute sections, part 26 of 50:           0xa00
+  .noinit            uninit   0x4200'8000   0xa00  main_mass.o [1]
+                            - 0x4200'8a00   0xa00
+
+Absolute sections, part 27 of 50:           0x500
+  .noinit            uninit   0x4205'0000   0x500  main_mass.o [1]
+                            - 0x4205'0500   0x500
+
+Absolute sections, part 28 of 50:           0x180
+  .noinit            uninit   0x4205'8000   0x180  main_mass.o [1]
+                            - 0x4205'8180   0x180
+
+Absolute sections, part 29 of 50:           0x200
+  .noinit            uninit   0x4206'0000   0x200  main_mass.o [1]
+                            - 0x4206'0200   0x200
+
+Absolute sections, part 30 of 50:           0x304
+  .noinit            uninit   0x4208'8000   0x304  main_mass.o [1]
+                            - 0x4208'8304   0x304
+
+Absolute sections, part 31 of 50:           0x480
+  .noinit            uninit   0x420a'8000   0x480  main_mass.o [1]
+                            - 0x420a'8480   0x480
+
+Absolute sections, part 32 of 50:           0xa80
+  .noinit            uninit   0x420b'8000   0xa80  main_mass.o [1]
+                            - 0x420b'8a80   0xa80
+
+Absolute sections, part 33 of 50:          0x1800
+  .noinit            uninit   0x420d'8000  0x1800  main_mass.o [1]
+                            - 0x420d'9800  0x1800
+
+Absolute sections, part 34 of 50:           0x100
+  .noinit            uninit   0x420e'0000   0x100  main_mass.o [1]
+                            - 0x420e'0100   0x100
+
+Absolute sections, part 35 of 50:           0x400
+  .noinit            uninit   0x4220'0000   0x400  main_mass.o [1]
+                            - 0x4220'0400   0x400
+
+Absolute sections, part 36 of 50:           0x300
+  .noinit            uninit   0x4220'8000   0x300  main_mass.o [1]
+                            - 0x4220'8300   0x300
+
+Absolute sections, part 37 of 50:           0x380
+  .noinit            uninit   0x4221'0000   0x380  main_mass.o [1]
+                            - 0x4221'0380   0x380
+
+Absolute sections, part 38 of 50:           0x380
+  .noinit            uninit   0x4221'8000   0x380  main_mass.o [1]
+                            - 0x4221'8380   0x380
+
+Absolute sections, part 39 of 50:           0x380
+  .noinit            uninit   0x4222'0000   0x380  main_mass.o [1]
+                            - 0x4222'0380   0x380
+
+Absolute sections, part 40 of 50:           0x380
+  .noinit            uninit   0x4222'8000   0x380  main_mass.o [1]
+                            - 0x4222'8380   0x380
+
+Absolute sections, part 41 of 50:           0x984
+  .noinit            uninit   0x4225'8000   0x984  main_mass.o [1]
+                            - 0x4225'8984   0x984
+
+Absolute sections, part 42 of 50:           0x290
+  .noinit            uninit   0x4226'0000   0x290  main_mass.o [1]
+                            - 0x4226'0290   0x290
+
+Absolute sections, part 43 of 50:           0x304
+  .noinit            uninit   0x4227'0000   0x304  main_mass.o [1]
+                            - 0x4227'0304   0x304
+
+Absolute sections, part 44 of 50:          0x1280
+  .noinit            uninit   0x4240'0000  0x1280  main_mass.o [1]
+                            - 0x4240'1280  0x1280
+
+Absolute sections, part 45 of 50:           0x600
+  .noinit            uninit   0x4242'0000   0x600  main_mass.o [1]
+                            - 0x4242'0600   0x600
+
+Absolute sections, part 46 of 50:           0x480
+  .noinit            uninit   0x4244'0000   0x480  main_mass.o [1]
+                            - 0x4244'0480   0x480
+
+Absolute sections, part 47 of 50:           0x180
+  .noinit            uninit   0x4246'0000   0x180  main_mass.o [1]
+                            - 0x4246'0180   0x180
+
+Absolute sections, part 48 of 50:             0x4
+  .noinit            uninit   0xe000'e008     0x4  system_stm32f1xx.o [1]
+                            - 0xe000'e00c     0x4
+
+Absolute sections, part 49 of 50:            0x10
+  .noinit            uninit   0xe000'e010    0x10  system_stm32f1xx.o [1]
+                            - 0xe000'e020    0x10
+
+Absolute sections, part 50 of 50:           0xe04
+  .noinit            uninit   0xe000'e100   0xe04  system_stm32f1xx.o [1]
+                            - 0xe000'ef04   0xe04
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x800'14d7   0x800'27ff  0x1329
+   0x800'2810   0x800'7fff  0x57f0
+  0x2000'13b8  0x2000'27ff  0x1448
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1259:
+          0x2000'0024  0x1259
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x17 (63% of destination):
+           0x800'14c0    0x17
+    1 destination range, total size 0x24:
+          0x2000'0000    0x24
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  ro data  rw data
+                                                        (abs)    (abs)
+    ------                  -------  -------  -------  -------  -------
+command line/config:
+    -------------------------------------------------------------------
+    Total:
+
+D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj: [1]
+    USBP.o                      228                 8
+    USB_DATA.o                           228
+    USB_MASS.o                  936      120    4'628
+    dma.o                        20        8
+    flashIC_0.o                 672       12
+    gpio.o                      102
+    main_mass.o                 496       59      121            36'488
+    mfrc522.o                                       4
+    rcc.o                       220       12
+    spi.o                       126        4
+    startup_stm32f103cx.o       448
+    system.o                                       28       16
+    system_stm32f1xx.o           56                               3'608
+    usb.o                     1'132       48
+    -------------------------------------------------------------------
+    Total:                    4'436      491    4'789       16   40'096
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    ABImemcpy.o                 134
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    zero_init3.o                 58
+    -------------------------------------------------------------------
+    Total:                      340
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------------------------
+    Total:                       20
+
+    Gaps                          8
+    Linker created                        32      256
+-----------------------------------------------------------------------
+    Grand Total:              4'812      523    5'045       16   40'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'11f8           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1218           --   Gb  - Linker created -
+?main                    0x800'1259          Code  Gb  cmain.o [3]
+AFIO                    0x4001'0000    0x20  Data  Gb  main_mass.o [1]
+AFIO_BITBAND            0x4220'0000   0x400  Data  Gb  main_mass.o [1]
+BKP                     0x4000'6c00    0xc0  Data  Gb  main_mass.o [1]
+BKP_BITBAND             0x420d'8000  0x1800  Data  Gb  main_mass.o [1]
+CRC                     0x4002'3000     0xc  Data  Gb  main_mass.o [1]
+CRC_BITBAND             0x4246'0000   0x180  Data  Gb  main_mass.o [1]
+CSTACK$$Base            0x2000'12b8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'13b8           --   Gb  - Linker created -
+Capacity_Data            0x800'13c4     0x8  Data  Lc  USB_MASS.o [1]
+DMA1                    0x4002'0000    0x94  Data  Gb  main_mass.o [1]
+DMA1_BITBAND            0x4240'0000  0x1280  Data  Gb  main_mass.o [1]
+DMA1_CN2_IRQHandler      0x800'0ded    0x20  Code  Gb  main_mass.o [1]
+DMA1_CN3_IRQHandler      0x800'0e0d    0x18  Code  Gb  main_mass.o [1]
+DMA_Init                 0x800'10f9    0x10  Code  Gb  dma.o [1]
+DMA_Init{1}{2}::dma_default
+                         0x800'139c     0x8  Data  Lc  dma.o [1]
+EXTI                    0x4001'0400    0x18  Data  Gb  main_mass.o [1]
+EXTI_BITBAND            0x4220'8000   0x300  Data  Gb  main_mass.o [1]
+EndProcess               0x800'0ac7    0x1c  Code  Lc  flashIC_0.o [1]
+FLASH                   0x4002'2000    0x24  Data  Gb  main_mass.o [1]
+FLASH_BITBAND           0x4244'0000   0x480  Data  Gb  main_mass.o [1]
+FlashIC                 0x2000'12a8     0x8  Data  Gb  main_mass.o [1]
+FlashIC_CheckWriteEnableTimeout
+                         0x800'0dc5    0x28  Code  Gb  main_mass.o [1]
+FlashIC_CheckWriteEnableTimeout::begin_check_at
+                        0x2000'1264     0x4  Data  Lc  main_mass.o [1]
+FlashIC_EraseSector_0    0x800'0ba1    0x3e  Code  Gb  flashIC_0.o [1]
+FlashIC_GetInfo_0        0x800'09e5    0xac  Code  Gb  flashIC_0.o [1]
+FlashIC_IsBusy_0         0x800'0bdf    0x3a  Code  Gb  flashIC_0.o [1]
+FlashIC_Read_0           0x800'0ae3    0x4c  Code  Gb  flashIC_0.o [1]
+FlashIC_Write_0          0x800'0c19    0x5c  Code  Gb  flashIC_0.o [1]
+FormatCapacities_Data    0x800'1384     0xc  Data  Lc  USB_MASS.o [1]
+GPIOA                   0x4001'0800    0x1c  Data  Gb  main_mass.o [1]
+GPIOA_BITBAND           0x4221'0000   0x380  Data  Gb  main_mass.o [1]
+GPIOB                   0x4001'0c00    0x1c  Data  Gb  main_mass.o [1]
+GPIOB_BITBAND           0x4221'8000   0x380  Data  Gb  main_mass.o [1]
+GPIOC                   0x4001'1000    0x1c  Data  Gb  main_mass.o [1]
+GPIOC_BITBAND           0x4222'0000   0x380  Data  Gb  main_mass.o [1]
+GPIOD                   0x4001'1400    0x1c  Data  Gb  main_mass.o [1]
+GPIOD_BITBAND           0x4222'8000   0x380  Data  Gb  main_mass.o [1]
+GPIO_Mode                0x800'0fb5    0x66  Code  Gb  gpio.o [1]
+HardFault_Handler        0x800'0e35     0x2  Code  Gb  main_mass.o [1]
+I2C1                    0x4000'5400    0x24  Data  Gb  main_mass.o [1]
+I2C1_BITBAND            0x420a'8000   0x480  Data  Gb  main_mass.o [1]
+IDWG                    0x4000'3000    0x10  Data  Gb  main_mass.o [1]
+IDWG_BITBAND            0x4206'0000   0x200  Data  Gb  main_mass.o [1]
+Inquiry_Data             0x800'11d4    0x24  Data  Lc  USB_MASS.o [1]
+Instruction              0x800'1318     0xc  Data  Lc  flashIC_0.o [1]
+NVIC                    0xe000'e100   0xe04  Data  Gb  system_stm32f1xx.o [1]
+PWR                     0x4000'7000     0x8  Data  Gb  main_mass.o [1]
+PWR_BITBAND             0x420e'0000   0x100  Data  Gb  main_mass.o [1]
+RCC                     0x4002'1000    0x30  Data  Gb  main_mass.o [1]
+RCC_BITBAND             0x4242'0000   0x600  Data  Gb  main_mass.o [1]
+RCC_Init                 0x800'101d    0xdc  Code  Gb  rcc.o [1]
+RCC_Init{1}{2}::rcc_init_default
+                         0x800'1330     0xc  Data  Lc  rcc.o [1]
+RTC                     0x4000'2800    0x28  Data  Gb  main_mass.o [1]
+RTC_BITBAND             0x4205'0000   0x500  Data  Gb  main_mass.o [1]
+Region$$Table$$Base      0x800'11f8           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1218           --   Gb  - Linker created -
+SCB_ACTLR               0xe000'e008     0x4  Data  Gb  system_stm32f1xx.o [1]
+SPI1                    0x4001'3000    0x24  Data  Gb  main_mass.o [1]
+SPI1_BITBAND            0x4226'0000   0x290  Data  Gb  main_mass.o [1]
+SPI1_DMA_RX_CompleteFunction
+                        0x2000'1268     0x4  Data  Gb  main_mass.o [1]
+SPI1_DMA_TX_CompleteFunction
+                        0x2000'126c     0x4  Data  Gb  main_mass.o [1]
+SPI_Init                 0x800'0d45    0x50  Code  Gb  spi.o [1]
+SPI_Read                 0x800'0da7     0xa  Code  Gb  spi.o [1]
+SPI_Write                0x800'0d99     0xe  Code  Gb  spi.o [1]
+SPI_WriteRead            0x800'0db1    0x12  Code  Gb  spi.o [1]
+STK                     0xe000'e010    0x10  Data  Gb  system_stm32f1xx.o [1]
+SysTick_Handler          0x800'0e25    0x10  Code  Gb  main_mass.o [1]
+System                  0x2000'1280    0x18  Data  Gb  system.o [1]
+SystemInfo               0x800'2800    0x10  Data  Lc  system.o [1]
+SystemInit               0x800'110d    0x38  Code  Gb  system_stm32f1xx.o [1]
+System_Event            0x2000'1274     0x4  Data  Lc  system.o [1]
+TIM1                    0x4001'2c00    0x50  Data  Gb  main_mass.o [1]
+TIM1_BITBAND            0x4225'8000   0x984  Data  Gb  main_mass.o [1]
+TIM2                    0x4000'0000    0x50  Data  Gb  main_mass.o [1]
+TIM2_BITBAND            0x4200'0000   0xa00  Data  Gb  main_mass.o [1]
+TIM3                    0x4000'0400    0x50  Data  Gb  main_mass.o [1]
+TIM3_BITBAND            0x4200'8000   0xa00  Data  Gb  main_mass.o [1]
+UART1                   0x4001'3800    0x1c  Data  Gb  main_mass.o [1]
+UART1_BITBAND           0x4227'0000   0x304  Data  Gb  main_mass.o [1]
+UART2                   0x4000'4400    0x1c  Data  Gb  main_mass.o [1]
+UART2_BITBAND           0x4208'8000   0x304  Data  Gb  main_mass.o [1]
+USB                     0x4000'5c00    0x54  Data  Gb  main_mass.o [1]
+USBDescriptors           0x800'1238    0x20  Data  Gb  USB_DATA.o [1]
+USBManager              0x2000'12b0     0x8  Data  Gb  USBP.o [1]
+USBP_ConfigDataPoint     0x800'04b7    0x30  Code  Gb  usb.o [1]
+USBP_ConfigEndpoint      0x800'04e7    0x28  Code  Gb  usb.o [1]
+USBP_DeviceSetup_Process
+                         0x800'056d    0xbe  Code  Gb  USBP.o [1]
+USBP_EndpointSetup_Process
+                         0x800'0685     0x2  Code  Gb  USB_MASS.o [1]
+USBP_Init                0x800'0559    0x12  Code  Gb  USBP.o [1]
+USBP_InterfaceSetup_Process
+                         0x800'064b    0x3a  Code  Gb  USB_MASS.o [1]
+USBP_OpenAnotherEndpoint
+                         0x800'0999    0x14  Code  Gb  USB_MASS.o [1]
+USBP_OpenEndpoint        0x800'046f    0x48  Code  Gb  usb.o [1]
+USBP_PIDIn               0x800'0901    0x98  Code  Gb  USB_MASS.o [1]
+USBP_Process             0x800'056b     0x2  Code  Gb  USBP.o [1]
+USBP_Received            0x800'0689   0x274  Code  Gb  USB_MASS.o [1]
+USBP_Received::write_buffer_index
+                        0x2000'1278     0x4  Data  Lc  USB_MASS.o [1]
+USBP_Received{1}{2}{3}{4}::buff
+                        0x2000'0024  0x1000  Data  Lc  USB_MASS.o [1]
+USBP_Send                0x800'040f    0x60  Code  Gb  usb.o [1]
+USBP_UserSetup_Process   0x800'0687     0x2  Code  Gb  USB_MASS.o [1]
+USB_BITBAND             0x420b'8000   0xa80  Data  Gb  main_mass.o [1]
+USB_Init                 0x800'03cb    0x44  Code  Gb  usb.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                         0x800'01c1   0x20a  Code  Gb  usb.o [1]
+USB_MASS_Init            0x800'063d     0xe  Code  Gb  USB_MASS.o [1]
+USB_MASS_Manager        0x2000'1298    0x10  Data  Gb  USB_MASS.o [1]
+WWDG                    0x4000'2c00     0xc  Data  Gb  main_mass.o [1]
+WWDG_BITBAND            0x4205'8000   0x180  Data  Gb  main_mass.o [1]
+WriteAddress             0x800'0a91    0x36  Code  Lc  flashIC_0.o [1]
+WriteEnable              0x800'0b2f    0x72  Code  Lc  flashIC_0.o [1]
+_ConfigEndpoint          0x800'0119    0x24  Code  Lc  usb.o [1]
+_GetEndpointRX           0x800'013d    0x4e  Code  Lc  usb.o [1]
+_OpenEndpoint            0x800'00ed    0x2c  Code  Lc  usb.o [1]
+_SetEndpointTX           0x800'018b    0x36  Code  Lc  usb.o [1]
+_USB_ConfigurationDescription_Data
+                         0x800'1218    0x20  Data  Lc  USB_DATA.o [1]
+_USB_ConfigurationDescriptor
+                         0x800'1360     0xc  Data  Lc  USB_DATA.o [1]
+_USB_DeviceDescriptor_Data
+                         0x800'12d0    0x14  Data  Lc  USB_DATA.o [1]
+_USB_EndpointDescriptor
+                         0x800'12a0    0x18  Data  Lc  USB_DATA.o [1]
+_USB_InterfaceDescriptor
+                         0x800'1354     0xc  Data  Lc  USB_DATA.o [1]
+_USB_StringDescriptor    0x800'117c    0x30  Data  Lc  USB_DATA.o [1]
+_USB_StringDescriptor_Manufacturer_Data
+                         0x800'133c     0xc  Data  Lc  USB_DATA.o [1]
+_USB_StringDescriptor_Product_Data
+                         0x800'12e4    0x14  Data  Lc  USB_DATA.o [1]
+_USB_StringDescriptor_SerialNumber_Data
+                         0x800'1348     0xc  Data  Lc  USB_DATA.o [1]
+_USB_StringDescriptor_SupportLanguage_Data
+                         0x800'1400     0x4  Data  Lc  USB_DATA.o [1]
+__aeabi_memcpy4          0x800'0c85          Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy8          0x800'0c85          Code  Gb  ABImemcpy.o [3]
+__cmain                  0x800'1259          Code  Gb  cmain.o [3]
+__exit                   0x800'128d    0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'11ad    0x28  Code  Gb  data_init.o [3]
+__iar_packbits_init_single3
+                         0x800'1145    0x38  Code  Gb  packbits_init_single.o [3]
+__iar_program_start      0x800'1391          Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'0d0b    0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'1277     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000          Data  Gb  startup_stm32f103cx.o [1]
+_call_main               0x800'1265          Code  Gb  cmain.o [3]
+_exit                    0x800'1281          Code  Gb  cexit.o [3]
+_main                    0x800'1273          Code  Gb  cmain.o [3]
+buffer                  0x2000'1024   0x200  Data  Lc  USB_MASS.o [1]
+convert_rx_status        0x800'13b4     0x8  Data  Lc  usb.o [1]
+convert_tx_status        0x800'13ac     0x8  Data  Lc  usb.o [1]
+convert_type             0x800'13bc     0x8  Data  Lc  usb.o [1]
+dat                     0x2000'1270     0x4  Data  Gb  mfrc522.o [1]
+exit                     0x800'127b     0x4  Code  Gb  exit.o [2]
+main                     0x800'0e39   0x124  Code  Gb  main_mass.o [1]
+main{2}::USBEndpointBuffer
+                        0x2000'0000    0x24  Data  Lc  main_mass.o [1]
+main{2}::USBRX_Buff     0x2000'1224    0x40  Data  Lc  main_mass.o [1]
+sd_card                 0x2000'127c     0x1  Data  Gb  main_mass.o [1]
+
+
+[1] = D:\2_Project\14_FireWork\code\c6t6\v2.0\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  4'812 bytes of readonly  code memory
+    523 bytes of readonly  data memory (+ 16     absolute)
+  5'045 bytes of readwrite data memory (+ 40'096 absolute)
+
+Errors: none
+Warnings: none

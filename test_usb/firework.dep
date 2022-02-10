@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1471991488</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\base_timer.c</file>
+            <file>$PROJ_DIR$\Debug\List\firework.map</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\startup\startup_stm32f103cx.s</file>
+            <file>$PROJ_DIR$\source\system.c</file>
+            <file>$PROJ_DIR$\include\system.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\USB_DATA.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\regulation.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USB_CDC.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\2_SoftPeripheral\spi\soft_spi_0.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_1.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\USBP.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\3_Middleware\0_include\digital_input.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\cortex_m3.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\rcc.c</file>
+            <file>$PROJ_DIR$\source\firework.c</file>
+            <file>$PROJ_DIR$\source\main.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\startup\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\source\main_test\main_sound.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\dma.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\usb.c</file>
+            <file>$PROJ_DIR$\source\main_test\main_led_button.c</file>
+            <file>$PROJ_DIR$\source\firework_data.c</file>
+            <file>$PROJ_DIR$\source\main_test\main_mass.c</file>
+            <file>$PROJ_DIR$\source\sound.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\HID\USB_HID.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\spi.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\USBP.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\gpio.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\regulation.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Module\mfrc522\mfrc522_0.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\flashIC\flashIC_0.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\button\button_1.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\led\led_1.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\0_Common\common.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\mfrc522\mfrc522.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USB_MASS.h</file>
+            <file>$PROJ_DIR$\include\firework.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flashIC_0.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_1.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\0_include\mfrc522.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\regulation.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\firework.out</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\rcc.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bitband.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_led_button.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\firework.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cortex_m3.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\USB_DATA.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bkp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rcc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\soft_spi_0.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\flash.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\cortex_m3.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\firework.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\0_include\button.h</file>
+            <file>$PROJ_DIR$\include\sound.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103cx.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\0_include\flashIC.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\usb.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\stm32f103c6t6.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\base_timer.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USB_HID.h</file>
+            <file>$PROJ_DIR$\firework.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\sound.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sound.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\0_Common\0_include\define.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USBP_TYPEDEF.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\firework.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\mfrc522.o</file>
+            <file>$PROJ_DIR$\include\config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_1.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\rtc.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\usb.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\firework_data.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\wwdg.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\0_include\led.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\exti.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_mass.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\base_timer.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\button_1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_sound.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\0_Common\0_include\common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\base_timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\mfrc522.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\usb.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\general_timer.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\basic_timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_sound.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_led_button.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USBP.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\advanced_timer.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USBP_ENUM.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flashIC_0.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_mass.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\rcc.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\soft_spi_0.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\uart.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\afio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\firework_data.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\dma.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\idwg.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\i2c.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mfrc522_0.xcl</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\pwr.h</file>
+            <file>$PROJ_DIR$\include\ledfull.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\2_SoftPeripheral\0_include\soft_spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mfrc522_0.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\USBP.o</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\0_include\USB_MASS_SCSI.h</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\MASS\USB_MASS.c</file>
+            <file>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\MASS\USB_DATA.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\USB_MASS.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\USB_MASS.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 46 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\base_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 96 76 103 98 108 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\startup\startup_stm32f103cx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 48 96 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\2_SoftPeripheral\spi\soft_spi_0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127 96 76 81 92 123 120 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\cortex_m3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 96 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47 76 48 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\firework.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\startup\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60 96 76 47</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main_test\main_sound.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120 96 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\usb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96 76 48 84 107 77 109 81 92 123 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main_test\main_led_button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\firework_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 126 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main_test\main_mass.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4 69 60 96 76 48 104 103 98 83 86 121 123 115 122 84 107 77 109 81 92 120 127 55 125 116 88 108 47 58 44 65 71 8 37</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\sound.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96 76 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\USBP.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107 77 109 96 76 81 92 123 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\STM32F10x\drive\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\regulation.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Module\mfrc522\mfrc522_0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 92 76 123 96 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\flashIC\flashIC_0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65 96 76 81 92 123 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\button\button_1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 96 76 81 92 123 120 4 127 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\1_Application\led\led_1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 96 76 81 92 123 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Microcontroler\0_Common\common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\IC\mfrc522\mfrc522.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 127 96 76 81 92 123 120 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\firework.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 72 91 94 117 52 5 51 119 110 43 41 90 49 89 105 80 128 112 45 57 74 118 64 78 75 102 6 134 129 113 67 100 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\MASS\USB_MASS.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 107 77 109 96 76 81 92 123 120 4 127 130 65</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>C:\Users\jfavl\OneDrive\Libraries\C&amp;C++\embedded_C99\Protocol\USB\MASS\USB_DATA.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 107 77 109 96 76 81 92 123 120 4 127</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

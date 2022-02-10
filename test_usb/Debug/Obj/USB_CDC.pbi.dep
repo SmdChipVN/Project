@@ -1,0 +1,14 @@
+USB_CDC.pbi: \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\USB\CDC\USB_CDC.c \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USB_CDC.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP_TYPEDEF.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Protocol\0_include\USBP_ENUM.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\common.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\define.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\config.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\gpio.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\spi.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\dma.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\system.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\2_SoftPeripheral\0_include\soft_spi.h

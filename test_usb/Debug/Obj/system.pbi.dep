@@ -1,0 +1,5 @@
+system.pbi: D:\2_Project\14_FireWork\code\c6t6\v2.0\source\system.c \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\system.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bitband.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\common.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\define.h

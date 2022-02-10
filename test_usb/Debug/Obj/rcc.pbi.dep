@@ -1,0 +1,6 @@
+rcc.pbi: \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\rcc.c \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\rcc.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\define.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\STM32F10x\drive\0_include\bitband.h \
+  C:\Users\jfavl\OneDrive\Libraries\C&C++\embedded_C99\Microcontroler\0_Common\0_include\common.h

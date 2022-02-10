@@ -1,0 +1,27 @@
+ledfull.pbi: D:\2_Project\14_FireWork\code\c6t6\v2.0\source\ledfull.c \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\bitband.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\system.h \
+  D:\2_Project\14_FireWork\code\c6t6\v2.0\include\ledfull.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\stm32f103c8t6_regsmap.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\cortex_m3.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\0_Common\0_Include\define.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\basic_timer.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\general_timer.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\base_timer.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\rtc.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\wwdg.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\idwg.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\spi.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\uart.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\i2c.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\bkp.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\pwr.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\afio.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\exti.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\gpio.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\adc.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\advanced_timer.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\dma.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\rcc.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\flash.h \
+  C:\Users\jfavl\OneDrive\0_Libraries\V0.0_9_10_2020\1_Microcontroler\4_STM32F10x\0_Driver\0_Include\crc.h
